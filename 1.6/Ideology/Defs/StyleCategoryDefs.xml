@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- F*** YOU SEGMENTS -->
+  <StyleCategoryDef>
+    <defName>USAC_Segments</defName>
+    <label>Segs Sao.</label>
+    <iconPath>UI/StyleCategories/USACIcon</iconPath><!-- 需要改成正确的UI路径 -->
+    <soundOngoingRitual>RitualSustainer_Techist</soundOngoingRitual>
+    <ritualVisualEffectDef>Techist</ritualVisualEffectDef>
+    <thingDefStyles>
+      <li>
+        <thingDef>Gun_Revolver</thingDef>
+        <styleDef>Gun_USACRevolver</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_Autopistol</thingDef>
+        <styleDef>Gun_USACAutopistol</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_HeavySMG</thingDef>
+        <styleDef>Gun_USACHeavySMG</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_PumpShotgun</thingDef>
+        <styleDef>Gun_USACPumpShotgun</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_SniperRifle</thingDef>
+        <styleDef>Gun_USACSniperRifle</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_AssaultRifle</thingDef>
+        <styleDef>Gun_USACAssaultRifle</styleDef>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <thingDef>Gun_HellcatRifle</thingDef>
+        <styleDef>Gun_USACHellcatRifle</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_Minigun</thingDef>
+        <styleDef>Gun_USACMinigun</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_AssaultRifle</thingDef>
+        <styleDef>DMS_USAC_AssaultRifle</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_AssaultPiercer</thingDef>
+        <styleDef>DMS_USAC_AssaultPiercer</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_HeavyMachineGun</thingDef>
+        <styleDef>DMS_USAC_HeavyMachineGun</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_LightMachineGun</thingDef>
+        <styleDef>DMS_USAC_LightMachineGun</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_AntiMaterialRifle</thingDef>
+        <styleDef>DMS_USAC_AntiMaterialRifle</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_BattleRifle</thingDef>
+        <styleDef>DMS_USAC_BattleRifle</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_SniperCannon</thingDef>
+        <styleDef>DMS_USAC_SniperCannon</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_Autocannon</thingDef>
+        <styleDef>DMS_USAC_Autocannon</styleDef>
+      </li>
+      <li MayRequire="Aoba.DeadManSwitch.Core">
+        <thingDef>DMS_SemiAutoRifle</thingDef>
+        <styleDef>DMS_USAC_SemiAutoRifle</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+</Defs>

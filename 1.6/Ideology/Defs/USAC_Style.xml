@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingStyleDef>
+		<defName>Gun_USACRevolver</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/Revolver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACAutopistol</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/Autopistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACHeavySMG</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/HeavySMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACPumpShotgun</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/PumpShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACAssaultRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>Gun_USACHellcatRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/HellcatRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACMinigun</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/Minigun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACSniperRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_AssaultPiercer</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/AssaultPiercer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_AssaultRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_LightMachineGun</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/LightMachineGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_AntiMaterialRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/AntiMaterialRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_SemiAutoRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/SemiAutoRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_BattleRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/BattleRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.75,1.75)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_HeavyMachineGun</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/HeavyMachineGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.75,1.75)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_Autocannon</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/Autocannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.25,2.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef MayRequire="Aoba.DeadManSwitch.Core">
+		<defName>DMS_USAC_SniperCannon</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/DMS/SniperCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.25,2.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>
